@@ -1,12 +1,16 @@
 body {
-    background: #D6BCFF;
+    background: #ffff;
+}
+
+h1 {
+    color: red;
 }
 
 #container {
     margin: 100px auto;
     text-align: center;
     width: fit-content;
-    background: #FFF;
+    background: #0b1ddb;
     padding: 10px;
     border-radius: 21px;
 }
@@ -25,14 +29,14 @@ body {
     display: flex;
 }
 
-#left-section,
-#right-section {
+#left,
+#right {
     padding: 10px;
     margin: 10px;
 }
 
-#right-section {
-    background: #9C60FF;
+#right {
+    background: #85870e;
     border-radius: 11px;
     display: flex;
     flex-direction: column;
